@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NPOI-Export Word", "NPOI-Export Word\NPOI-Export Word.csproj", "{4BCAAE5A-93E1-476E-8969-460BC67D0D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export.Services", "Export.Services\Export.Services.csproj", "{BC504464-51DD-4457-B5D7-61B7DE53B753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BCAAE5A-93E1-476E-8969-460BC67D0D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCAAE5A-93E1-476E-8969-460BC67D0D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCAAE5A-93E1-476E-8969-460BC67D0D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCAAE5A-93E1-476E-8969-460BC67D0D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC504464-51DD-4457-B5D7-61B7DE53B753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC504464-51DD-4457-B5D7-61B7DE53B753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC504464-51DD-4457-B5D7-61B7DE53B753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC504464-51DD-4457-B5D7-61B7DE53B753}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72F04D5A-254E-4844-877B-E63E115AE15F}
+	EndGlobalSection
+EndGlobal

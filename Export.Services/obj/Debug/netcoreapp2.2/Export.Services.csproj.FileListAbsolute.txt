@@ -1,0 +1,18 @@
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\bin\Debug\netcoreapp2.2\Export.Services.deps.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\bin\Debug\netcoreapp2.2\Export.Services.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\bin\Debug\netcoreapp2.2\Export.Services.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.csprojAssemblyReference.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.csproj.CoreCompileInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.AssemblyInfoInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.AssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\bin\Debug\netcoreapp2.2\Export.Services.deps.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\bin\Debug\netcoreapp2.2\Export.Services.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\bin\Debug\netcoreapp2.2\Export.Services.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.csprojAssemblyReference.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.csproj.CoreCompileInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.AssemblyInfoInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.AssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\Export.Services\obj\Debug\netcoreapp2.2\Export.Services.pdb

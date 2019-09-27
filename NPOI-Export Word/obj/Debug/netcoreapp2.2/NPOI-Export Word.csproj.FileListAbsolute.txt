@@ -1,0 +1,64 @@
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.deps.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.runtimeconfig.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.runtimeconfig.dev.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.Views.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.Views.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\Export.Services.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\Export.Services.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.csprojAssemblyReference.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.csproj.CoreCompileInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorAssemblyInfo.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorAssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.AssemblyInfoInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.AssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.TagHelpers.input.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.TagHelpers.output.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorCoreGenerate.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorTargetAssemblyInfo.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorTargetAssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.Views.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.csproj.CopyComplete
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.deps.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.runtimeconfig.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.runtimeconfig.dev.json
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.Views.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\NPOI-Export Word.Views.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\Export.Services.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\bin\Debug\netcoreapp2.2\Export.Services.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.csprojAssemblyReference.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.csproj.CoreCompileInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorAssemblyInfo.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorAssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.AssemblyInfoInputs.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.AssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.TagHelpers.input.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.TagHelpers.output.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorCoreGenerate.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorTargetAssemblyInfo.cache
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.RazorTargetAssemblyInfo.cs
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.Views.pdb
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.csproj.CopyComplete
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.dll
+E:\【public】MyselfGitRepository\ASP.NET Core 导出复杂Word\NPOI-Export-Word\NPOI-Export Word\obj\Debug\netcoreapp2.2\NPOI-Export Word.pdb
