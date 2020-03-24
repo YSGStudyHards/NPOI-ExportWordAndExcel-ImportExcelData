@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "85543216c596a2383cf10e626c375777504de617"
+    "signature": ""
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,

@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\NPOI-Export Word\\NPOI_ExportAndImport.csproj": {}
+  },
+  "projects": {
+    "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj",
+        "projectName": "Export.Services",
+        "projectPath": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj",
+        "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
+        "outputPath": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yaoshuanggui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\NPOI-Export Word\\NPOI_ExportAndImport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\NPOI-Export Word\\NPOI_ExportAndImport.csproj",
+        "projectName": "NPOI_ExportAndImport",
+        "projectPath": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\NPOI-Export Word\\NPOI_ExportAndImport.csproj",
+        "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
+        "outputPath": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\NPOI-Export Word\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yaoshuanggui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj": {
+                "projectPath": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

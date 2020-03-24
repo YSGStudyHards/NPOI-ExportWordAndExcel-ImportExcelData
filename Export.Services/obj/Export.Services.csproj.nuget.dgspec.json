@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\【public】MyselfGitRepository\\ASP.NET Core 导出复杂Word\\NPOI-Export-Word\\Export.Services\\Export.Services.csproj": {}
+    "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj": {}
   },
   "projects": {
-    "E:\\【public】MyselfGitRepository\\ASP.NET Core 导出复杂Word\\NPOI-Export-Word\\Export.Services\\Export.Services.csproj": {
+    "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\【public】MyselfGitRepository\\ASP.NET Core 导出复杂Word\\NPOI-Export-Word\\Export.Services\\Export.Services.csproj",
+        "projectUniqueName": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj",
         "projectName": "Export.Services",
-        "projectPath": "E:\\【public】MyselfGitRepository\\ASP.NET Core 导出复杂Word\\NPOI-Export-Word\\Export.Services\\Export.Services.csproj",
+        "projectPath": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\Export.Services.csproj",
         "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
-        "outputPath": "E:\\【public】MyselfGitRepository\\ASP.NET Core 导出复杂Word\\NPOI-Export-Word\\Export.Services\\obj\\",
+        "outputPath": "E:\\A-我的Github开源项目\\ASP.NET Core NPOI使用超集\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,10 +57,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
