@@ -1,7 +1,6 @@
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp2.2\YY_Utility.deps.json
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp2.2\YY_Utility.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp2.2\YY_Utility.pdb
-E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp2.2\YY_Utility.csprojAssemblyReference.cache
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp2.2\YY_Utility.AssemblyInfoInputs.cache
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp2.2\YY_Utility.AssemblyInfo.cs
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp2.2\YY_Utility.dll

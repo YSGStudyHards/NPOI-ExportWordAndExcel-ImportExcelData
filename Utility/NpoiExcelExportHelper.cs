@@ -69,7 +69,6 @@ namespace YY_Utility
         /// <param name="isItalic">是否将文字变为斜体</param>
         /// <param name="isLineFeed">是否自动换行</param>
         /// <param name="isAddCellBackground">是否增加单元格背景颜色</param>
-        /// <param name="isAddFillPattern">是否填充图案</param>
         /// <param name="fillPattern">填充图案样式(FineDots 细点，SolidForeground立体前景，isAddFillPattern=true时存在)</param>
         /// <param name="cellBackgroundColor">单元格背景样式（当isAddCellBackground=true时存在）</param>
         /// <param name="fontColor">字体颜色</param>
@@ -77,7 +76,7 @@ namespace YY_Utility
         /// <param name="typeOffset">字体上标下标(普通默认值[None],上标[Sub],下标[Super]),即字体在单元格内的上下偏移量</param>
         /// <param name="isStrikeout">是否显示删除线</param>
         /// <returns></returns>
-        public HSSFCellStyle CreateStyle(HSSFWorkbook workbook, HorizontalAlignment hAlignment, VerticalAlignment vAlignment, short fontHeightInPoints, bool isAddBorder, short boldWeight, string fileName = "宋体", bool isAddBorderColor = true, bool isItalic = false, bool isLineFeed = false, bool isAddCellBackground = false, bool isAddFillPattern = false, FillPattern fillPattern = FillPattern.NoFill, short cellBackgroundColor = HSSFColor.Yellow.Index, short fontColor = HSSFColor.Black.Index, FontUnderlineType underlineStyle =
+        public HSSFCellStyle CreateStyle(HSSFWorkbook workbook, HorizontalAlignment hAlignment, VerticalAlignment vAlignment, short fontHeightInPoints, bool isAddBorder, short boldWeight, string fileName = "宋体", bool isAddBorderColor = true, bool isItalic = false, bool isLineFeed = false, bool isAddCellBackground = false, FillPattern fillPattern = FillPattern.NoFill, short cellBackgroundColor = HSSFColor.Yellow.Index, short fontColor = HSSFColor.Black.Index, FontUnderlineType underlineStyle =
             FontUnderlineType.None, FontSuperScript typeOffset = FontSuperScript.None, bool isStrikeout = false)
         {
             HSSFCellStyle cellStyle = (HSSFCellStyle)workbook.CreateCellStyle(); //创建列头样式
@@ -92,16 +91,13 @@ namespace YY_Utility
 
             //TODO：引用了NPOI后可通过ICellStyle 接口的 FillForegroundColor 属性实现 Excel 单元格的背景色设置，FillPattern 为单元格背景色的填充样式
 
+            //TODO:十分注意，要设置单元格背景色必须是FillForegroundColor和FillPattern两个属性同时设置，否则是不会显示背景颜色
             if (isAddCellBackground)
             {
                 cellStyle.FillForegroundColor = cellBackgroundColor;//背景样式设置
-            }
-
-
-            if (isAddFillPattern) //是否填充图案
-            {
                 cellStyle.FillPattern = fillPattern;//填充图案样式(FineDots 细点，SolidForeground立体前景)
             }
+
 
             //是否增加边框
             if (isAddBorder)
@@ -260,7 +256,7 @@ namespace YY_Utility
 
 
         //            //保存文件到静态资源文件夹中（wwwroot）,使用绝对路径
-        //            var uploadPath = _environment.WebRootPath+"/Upload/" + folder + "/";
+        //            var uploadPath = _environment.WebRootPath+"/UploadFile/" + folder + "/";
 
         //            //excel保存文件名
         //            string excelFileName=excelName+"_" + DateTime.Now.ToString("yyyyMMddHHmmss")+".xls";
@@ -287,7 +283,7 @@ namespace YY_Utility
         //            fileStream.Dispose();
 
         //            //excel文件保存的相对路径，提供前端下载
-        //            var relativePositioning = "/Upload/" + folder + "/" + excelFileName;
+        //            var relativePositioning = "/UploadFile/" + folder + "/" + excelFileName;
 
         //            result.Message = relativePositioning;
         //        }

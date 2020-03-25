@@ -10,12 +10,18 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
     <PackageReference Include="NPOI" Version="2.4.1" />
   </ItemGroup>
 
 
   <ItemGroup>
     <ProjectReference Include="..\Export.Services\YY_Services.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\UploadFile\" />
   </ItemGroup>
 
 </Project>

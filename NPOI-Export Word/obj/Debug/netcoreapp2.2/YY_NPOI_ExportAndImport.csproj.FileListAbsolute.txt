@@ -34,3 +34,4 @@ E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndEx
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.csproj.CopyComplete
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.pdb
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\ExcelOperation\ExportExcelData.cshtml.g.cs

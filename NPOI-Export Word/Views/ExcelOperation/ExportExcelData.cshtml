@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "使用NPOI导出Excel文档";
+}
+<div class="text-center">
+    <button type="button" class="layui-btn layui-btn-fluid" onclick="excelExport()" style="width: 600px;">导出并保存如下图所示的Excel文档</button>
+</div>
+<br/>
+<img src="~/images/excelPicture.png" height="500" width="100%"/>
+<script type="text/javascript">
+    function excelExport() {
+        var index = layer.msg('Excel文档努力生成中...', { icon: 16, shade: 0.8, time: false });
+        $.ajax({
+            async: true,
+            dataType: "json",
+            type: "post",
+            url: "@Url.Action("DataExportSimple","ExcelOperation")",
+            success: function (res) {
+                debugger;
+                layer.close(index);
+                console.log(res);
+                if (res.code == 1) {
+                    window.location.href = res.data;
+                } else {
+                    alert(res.data);
+                }
+            }
+        });
+    }
+</script>
+

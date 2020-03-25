@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NPOI_Export_Word.Controllers;
+using YY_Services;
 
 namespace NPOI_Export_Word
 {
@@ -35,6 +36,7 @@ namespace NPOI_Export_Word
 
             //依赖注入
             services.AddSingleton<NpoiWordExportService>();
+            services.AddSingleton<NpoiExcelOperationService>();
         
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

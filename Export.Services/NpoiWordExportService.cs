@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Hosting;
-using NPOI.OpenXmlFormats.Wordprocessing;
 using NPOI.XWPF.UserModel;
 using System;
 using System.IO;
@@ -7,6 +6,9 @@ using YY_Utility;
 
 namespace Export.Services
 {
+    /// <summary>
+    /// word生成并保存服务
+    /// </summary>
     public class NpoiWordExportService
     {
         private static IHostingEnvironment _environment;
