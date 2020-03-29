@@ -8,9 +8,13 @@ E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndEx
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.pdb
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.Views.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.Views.pdb
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Dal.dll
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Model.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Services.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Utility.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Services.pdb
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Dal.pdb
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Model.pdb
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\bin\Debug\netcoreapp2.2\YY_Utility.pdb
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.csprojAssemblyReference.cache
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.RazorAssemblyInfo.cache
@@ -20,6 +24,8 @@ E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndEx
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.TagHelpers.input.cache
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.TagHelpers.output.cache
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.RazorCoreGenerate.cache
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\ExcelOperation\ExportExcelData.cshtml.g.cs
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\ExcelOperation\Index.cshtml.g.cs
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
@@ -34,4 +40,3 @@ E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndEx
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.csproj.CopyComplete
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\YY_NPOI_ExportAndImport.pdb
-E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\NPOI-Export Word\obj\Debug\netcoreapp2.2\Razor\Views\ExcelOperation\ExportExcelData.cshtml.g.cs

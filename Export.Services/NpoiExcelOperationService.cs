@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using Microsoft.AspNetCore.Hosting;
 using NPOI.HSSF.UserModel;
 using NPOI.HSSF.Util;
@@ -12,7 +10,7 @@ using YY_Utility;
 namespace YY_Services
 {
     /// <summary>
-    /// Excel文档生成并保存和Excel数据导入到Mysql数据库中服务类
+    /// Excel文档生成并保存操作类
     /// </summary>
     public class NpoiExcelOperationService
     {

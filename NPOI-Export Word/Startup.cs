@@ -8,9 +8,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NPOI_Export_Word.Controllers;
+using YY_Dal;
 using YY_Services;
 
 namespace NPOI_Export_Word
@@ -35,9 +37,13 @@ namespace NPOI_Export_Word
             });
 
             //依赖注入
-            services.AddSingleton<NpoiWordExportService>();
-            services.AddSingleton<NpoiExcelOperationService>();
-        
+            services.AddScoped<NpoiWordExportService>();
+            services.AddScoped<NpoiExcelOperationService>();
+
+            //注入Ef数据库上下文对象服务
+            services.AddDbContext<SchoolUserInfoContext>(options =>
+                options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
