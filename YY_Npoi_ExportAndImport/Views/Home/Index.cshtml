@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "NPOI导出Word文档示例";
+}
+<div class="layui-header header header-doc" spring>
+    <div class="layui-main">
+        <ul class="layui-nav" id="nav">
+            <li class="layui-nav-item layui-this">
+                <a href="@Url.Action("Index","Home")" style="text-decoration:none;">使用NPOI导出Word文档</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="@Url.Action("ExportExcelData","ExcelOperation")" style="text-decoration:none;">使用NPOI导出Excel文档</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="@Url.Action("Index","ExcelDataImportAndLook")" style="text-decoration:none;">将Excel文档数据数据批量导入到MySQL中</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div style="height: 20px;"></div>
+<div class="text-center">
+    <button type="button" class="layui-btn layui-btn-fluid" onclick="wordExport()" style="width: 600px;">导出并保存如下图所示的Word文档</button>
+    <img src="~/images/wordPicture.png" height="530" />
+</div>
+<script type="text/javascript">
+    function wordExport() {
+        var index = layer.msg('Work文档努力生成中...', { icon: 16, shade: 0.8, time: false });
+        $.ajax({
+            async: true,
+            dataType: "json",
+            type: "post",
+            url: "@Url.Action("WordExport","Home")",
+            success: function (res) {
+                layer.close(index);
+                if (res.code == 1) {
+                    window.location.href = res.data;
+                } else {
+                    alert(res.data);
+                }
+            }
+        });
+    }
+</script>

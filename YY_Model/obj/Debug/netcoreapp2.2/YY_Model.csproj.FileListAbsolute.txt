@@ -5,3 +5,4 @@ E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndEx
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\YY_Model\obj\Debug\netcoreapp2.2\YY_Model.AssemblyInfo.cs
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\YY_Model\obj\Debug\netcoreapp2.2\YY_Model.dll
 E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\YY_Model\obj\Debug\netcoreapp2.2\YY_Model.pdb
+E:\A-我的Github开源项目\ASP.NET Core NPOI使用超集\NPOI-ExportWordAndExcel-ImportExcelData\YY_Model\obj\Debug\netcoreapp2.2\YY_Model.csprojAssemblyReference.cache

@@ -15,7 +15,7 @@ namespace YY_Model
         public string UserName { get; set; }
 
         [Description("学生性别")]
-        public char Sex { get; set; }
+        public string Sex { get; set; }
 
         [Description("学生联系方式")]
         public string Phone { get; set; }

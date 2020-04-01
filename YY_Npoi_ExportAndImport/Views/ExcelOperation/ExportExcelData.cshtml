@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "使用NPOI导出Excel文档";
+}
+<div class="layui-header header header-doc" spring>
+    <div class="layui-main">
+        <ul class="layui-nav" id="nav">
+            <li class="layui-nav-item">
+                <a href="@Url.Action("Index","Home")" style="text-decoration:none;">使用NPOI导出Word文档</a>
+            </li>
+            <li class="layui-nav-item layui-this">
+                <a href="@Url.Action("ExportExcelData","ExcelOperation")" style="text-decoration:none;">使用NPOI导出Excel文档</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="@Url.Action("Index","ExcelDataImportAndLook")" style="text-decoration:none;">将Excel文档数据数据批量导入到MySQL中</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div style="height: 20px;"></div>
+<div class="text-center">
+    <button type="button" class="layui-btn layui-btn-fluid" onclick="excelExport()" style="width: 600px;">导出并保存如下图所示的Excel文档</button>
+</div>
+<br />
+<img src="~/images/excelPicture.png" height="500" width="100%" />
+<script type="text/javascript">
+    function excelExport() {
+        var index = layer.msg('Excel文档努力生成中...', { icon: 16, shade: 0.8, time: false });
+        $.ajax({
+            async: true,
+            dataType: "json",
+            type: "post",
+            url: "@Url.Action("DataExportSimple","ExcelOperation")",
+            success: function (res) {
+                debugger;
+                layer.close(index);
+                console.log(res);
+                if (res.code == 1) {
+                    window.location.href = res.data;
+                } else {
+                    alert(res.data);
+                }
+            }
+        });
+    }
+</script>
+
