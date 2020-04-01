@@ -1,1 +1,11 @@
 /.vs
+/Export.Services/bin
+/Export.Services/obj
+/Utility/obj
+/Utility/bin
+/YY_Dal/bin
+/YY_Dal/obj
+/YY_Model/obj
+/YY_Model/bin
+/YY_Npoi_ExportAndImport/obj
+/YY_Npoi_ExportAndImport/bin
