@@ -1,23 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using NPOI.HSSF.UserModel;
 using NPOI.HSSF.Util;
 using NPOI.SS.UserModel;
 using NPOI.SS.Util;
+using YY_Dal;
+using YY_Model;
 using YY_Utility;
 
 namespace YY_Services
 {
     /// <summary>
-    /// Excel文档生成并保存操作类
+    /// Excel文档生成并保存,和Excel文档中的数据批量导出操作类
     /// </summary>
     public class NpoiExcelOperationService
     {
         private static IHostingEnvironment _environment;
 
-        public NpoiExcelOperationService(IHostingEnvironment iEnvironment)
+        private readonly SchoolUserInfoContext _shoSchoolUserInfoContext;
+
+        public NpoiExcelOperationService(SchoolUserInfoContext schoolUserInfoContext, IHostingEnvironment iEnvironment)
         {
+            _shoSchoolUserInfoContext = schoolUserInfoContext;
             _environment = iEnvironment;
         }
 
@@ -198,5 +206,74 @@ namespace YY_Services
             return result;
         }
 
+
+        /// <summary>
+        /// Excel中的数据批量导入
+        /// </summary>
+        /// <param name="formFile">表单文件信息</param>
+        /// <param name="resultMsg">导入结果</param>
+        /// <returns></returns>
+        public bool ExcelDataBatchImport(IFormFile formFile, out string resultMsg)
+        {
+            resultMsg = "导入成功";
+            var result = false;
+
+            try
+            {
+                if (formFile.Length > 0)
+                {
+                    var stopWatch = new Stopwatch();
+
+                    stopWatch.Start();
+                    //将excel表格中的数据转化为dataTable数据
+                    var getDataTable = NpoiExcelImportHelper._.ExcelToDataTable(formFile.OpenReadStream(), Path.GetExtension(formFile.FileName), out result, out resultMsg
+                    );
+
+                    if (getDataTable.Rows.Count <= 0)
+                    {
+                        return false;
+                    }
+
+                    var userInfoList = new List<UserInfo>();
+
+                    var random = DateTime.Now.ToString("fff");
+
+                    //将dataTable数据源转化为List数据源
+                    for (int i =0; i < getDataTable.Rows.Count; i++)
+                    {
+                        var userInfo = new UserInfo
+                        {
+                            UserName = getDataTable.Rows[i][0].ToString()+"_"+random,
+                            Sex = getDataTable.Rows[i][1].ToString(),
+                            Phone = getDataTable.Rows[i][2].ToString(),
+                            Description = getDataTable.Rows[i][3].ToString(),
+                            Hobby = getDataTable.Rows[i][4].ToString()
+                        };
+
+                        userInfoList.Add(userInfo);
+                    }
+
+                    //EF之AddRange批量添加数据
+
+                    _shoSchoolUserInfoContext.UserInfos.AddRange(userInfoList);
+
+                    _shoSchoolUserInfoContext.SaveChanges();
+
+                    stopWatch.Stop();
+
+                    resultMsg = resultMsg + $",耗费总时长{stopWatch.Elapsed.TotalSeconds}秒，总共导入{getDataTable.Rows.Count}条数据";
+                }
+                else
+                {
+                    resultMsg = "Excel表中无数据可导入！";
+                }
+            }
+            catch (Exception e)
+            {
+                resultMsg = e.Message;
+            }
+
+            return result;
+        }
     }
 }

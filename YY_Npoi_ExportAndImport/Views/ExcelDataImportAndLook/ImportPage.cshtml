@@ -1,0 +1,79 @@
+﻿@{ 
+    ViewData["Title"] = "数据导入";
+    Layout = null;
+}
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/layer-v3.1.1/layer-v3.1.1/layer/theme/default/layer.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/layui/layui.js"></script>
+    <script src="~/layer-v3.1.1/layer-v3.1.1/layer/layer.js"></script>
+</head>
+<body style="background-color: rgb(242, 242, 242)" ;>
+
+<div class="ui-layout-center" style="width: 350px;">
+    <div class="center-Panel" style="margin-top: 30px; width: 350px; margin-left: 100px;">
+        <div class="layui-form-item">
+            <input type="text" name="fileInput" id="fileInput" class="layui-input" placeholder="请选择系统Excel模板进行导入... " onclick="file.click()" readonly="readonly" style="width: 350px;"/>
+        </div>
+        <div class="layui-form-item">
+            <input type="button" onclick="file.click()" id="SelectExcel" class="layui-btn layui-btn-radius" value="浏览"/>
+            <input name="file" type="file" id="file" style="display: none" onchange="fileInput.value = this.value"/>
+            <input type="button" id="datImport" name="Upload" value="数据导入" onclick="uploadFile()" class="layui-btn layui-btn-danger layui-btn-radius"/>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function uploadFile() {
+        var fileInfo = $("#fileInput").val();
+
+        if (fileInfo == "") {
+            layer.alert("请选择模板进行提交");
+            return false;
+        }
+
+        layer.msg('数据导入中，请勿进行其他操作', { icon: 16, shade: 0.4, time: false });
+
+        //获取input中的文件列表信息
+        var files = document.getElementById("file").files;
+        var formData = new FormData();//创建FormData对象，以键值对的方式拼接form表单数据（multipart/form-data，图片媒体文件）
+        //拼接图片文件流信息
+        console.log(files[0]);
+        formData.append("file", files[0]);
+        $.ajax({
+            url: "@Url.Action("DataImport","ExcelDataImportAndLook")",
+            type: 'POST',
+            data: formData,
+            async: false,
+            dataType: "json",
+            // 告诉jQuery不要去处理发送的数据
+            processData: false,
+            // 告诉jQuery不要去设置Content-Type请求头
+            contentType: false,
+            beforeSend: function () {
+                console.log("正在进行，请稍候");
+            },
+            success: function (data) {
+                layer.closeAll();
+
+                if (data.code==1) {
+                    layer.confirm(data.msg,{
+                        icon:1,
+                        btn: ['我知道了'] //按钮
+                    }, function(){
+                        window.parent.location.href = "@Url.Action("Index","ExcelDataImportAndLook")";
+                    });
+                } else {
+                    layer.msg(data.msg);
+                }
+            },
+            error: function (data) {
+                console.log("error2");
+            }
+        });
+    }
+</script>
+</body>
+</html>

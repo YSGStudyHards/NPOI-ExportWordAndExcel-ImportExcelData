@@ -6,7 +6,7 @@
         <ul class="layui-nav" id="nav">
             <li class="layui-nav-item">
                 <a href="@Url.Action("Index","Home")" style="text-decoration:none;">使用NPOI导出Word文档</a>
-            </li>
+            </li>&#xe9aa;
             <li class="layui-nav-item">
                 <a href="@Url.Action("ExportExcelData","ExcelOperation")" style="text-decoration:none;">使用NPOI导出Excel文档</a>
             </li>
@@ -22,13 +22,19 @@
             <div class="layui-col-md12">
                 <div class="layui-card">
                     <div class="layui-card-header">
-                        <button class="layui-btn layui-btn-sm" onclick="Import()">数据导入</button>
-                        <button class="layui-btn layui-btn-sm layui-btn-danger" onclick="DataExport()">数据导出</button>
-                        <button class="layui-btn layui-btn-sm layui-btn-danger" onclick="Download()">导入模板下载</button>
+                        <button class="layui-btn layui-btn" onclick="openImportPage()"> <i class="layui-icon">&#xe62f;</i> 数据导入</button>
+                        <button class="layui-btn layui-btn layui-btn-danger" onclick="Download()"><i class="layui-icon">&#xe601;</i>导入模板下载</button>
+                        <!--// 搜索：用户姓名-->
+                        <div class="layui-inline">
+                            <input class="layui-input layui-icon-search" name="id" id="userName" autocomplete="off" placeholder="请输入用户名">
+                        </div>
+                        <button class="layui-btn layui-btn" id="queryData"><i class="layui-icon">&#xe615;</i>查询</button>
+                        <button class="layui-btn layui-btn" id="btn-refresh"><i class="layui-icon">&#xe9aa;</i>刷新</button>
+                        @*<button class="layui-btn" data-type="reload">查询</button>*@
                     </div>
 
                     <div class="layui-card-body">
-                        <table class="layui-hide" id="test-table-resetPage"></table>
+                        <table class="layui-hide" id="layUI_Table"></table>
                     </div>
                 </div>
             </div>
@@ -36,32 +42,14 @@
     </div>
 
     <script>
-        //数据导出
-        function DataExport() {
-            $.ajax({
-                async: true,
-                datatype: 'json',
-                url: '@Url.Action("Export","Home")',
-                type: "post",
-                success: function(data) {
-                    if (data.code == 1) {
-                        layer.msg("导出成功");
-                        //下载
-                        window.location.href = data.msg;
-                    } else {
-                        layer.msg(data.msg);
-                    }
-                }
-            });
-        }
-
         //模板下载
         function Download()
         {
             window.location.href="/Content/ExcelFiles/Template.xlsx";
         }
 
-        function Import() {
+        //打开数据导入页面
+        function openImportPage() {
             layer.open({
                 type: 2,
                 title: '数据导入',
@@ -69,7 +57,7 @@
                 shade: false,
                 maxmin: false, //开启最大化最小化按钮
                 area: ['525px', '270px'],
-                content: '@Url.Action("UserImport","ExcelDataImportAndLook")'
+                content: '@Url.Action("ImportPage","ExcelDataImportAndLook")'
             });
         }
 
@@ -80,22 +68,50 @@
         //layui—table表格渲染和数据绑定
         layui.use('table', function () {
             var table = layui.table;
-            table.render({
-               elem: '#test-table-resetPage'
-              , url: '@Url.Action("GetUserInfo","ExcelDataImportAndLook")'
-              , loading: true
-              , height: 405 //容器高度
-              , limit:15
-              , limits:[15, 30, 60, 90]
-             , cols: [[
-          { field: 'id', width: 180, title: '用户编号', sort: true }
-        , { field: 'userName', width:180, title: '用户名' }
-        , { field: 'sex', width: 180, title: '性别'}
-        , { field: 'phone', width: 280, title: '手机号' }
-        , { field: 'description', width: 280, title: '个人介绍' }
-        , { field: 'hobby', title: '爱好', minWidth: 150,width:280}
-             ]]
-              , page: true
+
+         // 表格渲染
+         var tableIns=table.render({
+               elem: '#layUI_Table'
+              , url: '@Url.Action("GetUserInfo","ExcelDataImportAndLook")',
+               loading: true,
+               height: 505,//容器高度
+               limit: 15,
+               limits: [15, 30, 60, 90],
+               cols: [
+                   [
+                       { fixed: 'id', type: 'checkbox', width: 100 },
+                       { field: 'id', width: 110, title: '用户编号', sort: true },
+                       { field: 'userName', width: 150, title: '用户名' }, { field: 'sex', width: 70, title: '性别' },
+                       { field: 'phone', width: 150, title: '手机号' },
+                       { field: 'description', width: 300, title: '个人介绍' },
+                       { field: 'hobby', title: '爱好', minWidth: 150, width: 280 }
+                   ]
+               ],
+               page: true
+            });
+
+            // 刷新
+            $('#btn-refresh').on('click',
+                function() {
+                    tableIns.reload();
+                });
+
+            //search Data
+            $("#queryData").on("click",
+                function() {
+
+                    var userName = $("#userName").val();
+                    if (userName == "") {
+                        layer.msg("用户名不能为空~");
+                        return false;
+                    }
+
+                    table.reload('layUI_Table', {
+                        where: { //请求参数（注意：这里面的参数可任意定义，并非下面固定的格式）
+                            userName: userName
+                            //,order: obj.type //排序方式
+                        }
+                    });
             });
         });
     </script>
