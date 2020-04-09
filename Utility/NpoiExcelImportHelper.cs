@@ -37,7 +37,7 @@ namespace YY_Utility
         public DataTable ExcelToDataTable(Stream stream, string fileType, out bool isSuccess, out string resultMsg)
         {
             isSuccess = false;
-            resultMsg = "数据导入成功";
+            resultMsg = "Excel文件流成功转化为DataTable数据源";
             var excelToDataTable = new DataTable();
 
             try

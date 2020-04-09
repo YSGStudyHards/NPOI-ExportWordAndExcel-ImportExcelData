@@ -81,7 +81,7 @@ namespace YY_Npoi_ExportAndImport.Controllers
         /// <summary>
         /// 数据导入
         /// </summary>
-        /// <param name="file">表单文件信息</param>
+        /// <param name="file">Form表单文件信息</param>
         /// <returns></returns>
         public JsonResult DataImport(IFormFile file)
         {
