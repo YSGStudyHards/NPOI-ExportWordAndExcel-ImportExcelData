@@ -4,10 +4,8 @@
  * Description：2020年4月5日
  */
 using System;
-using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using System.Text;
 using NPOI.HSSF.UserModel;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
@@ -84,8 +82,49 @@ namespace YY_Utility
 
                     for (int j = row.FirstCellNum; j < cellCount; j++)
                     {
-                        if (row.GetCell(j) != null)
-                            dataRow[j] = row.GetCell(j).ToString();
+                        if (row.GetCell(j) != null)//单元格内容非空验证
+                        {
+                            //获取指定的单元格信息
+                            var cell = row.GetCell(i);
+
+                            #region NPOI获取Excel单元格数据不同类型数据
+                            switch (cell.CellType)
+                            {
+                                //首先在NPOI中数字和日期都属于Numeric类型
+                                //通过NPOI中自带的DateUtil.IsCellDateFormatted判断是否为时间日期类型
+                                case CellType.Numeric when DateUtil.IsCellDateFormatted(cell):
+                                    dataRow[j] = cell.DateCellValue;
+                                    break;
+                                case CellType.Numeric:
+                                    //其他数字类型
+                                    dataRow[j] = cell.NumericCellValue;
+                                    break;
+                                //空数据类型
+                                case CellType.Blank:
+                                    dataRow[i] = "";
+                                    break;
+                                //公式类型
+                                case CellType.Formula:
+                                {
+                                    HSSFFormulaEvaluator eva = new HSSFFormulaEvaluator(workbook);
+                                    dataRow[i] = eva.Evaluate(cell).StringValue;
+                                    break;
+                                }
+                                //布尔类型
+                                case CellType.Boolean:
+                                    dataRow[j] = row.GetCell(j).BooleanCellValue;
+                                    break;
+                                //错误
+                                case CellType.Error:
+                                    dataRow[j] = HSSFErrorConstants.GetText(row.GetCell(j).ErrorCellValue);
+                                    break;
+                                //其他类型都按字符串类型来处理（未知类型CellType.Unknown，字符串类型CellType.String）
+                                default:
+                                    dataRow[i] = cell.StringCellValue;
+                                    break;
+                            }
+                            #endregion
+                        }
                     }
                     excelToDataTable.Rows.Add(dataRow);
                 }

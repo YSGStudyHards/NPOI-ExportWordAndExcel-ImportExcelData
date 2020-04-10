@@ -270,6 +270,7 @@ namespace YY_Services
             }
             catch (Exception e)
             {
+                result = false;
                 resultMsg = e.Message;
             }
 
