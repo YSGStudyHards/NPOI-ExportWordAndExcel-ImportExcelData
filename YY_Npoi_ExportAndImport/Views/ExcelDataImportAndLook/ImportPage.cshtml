@@ -1,4 +1,4 @@
-﻿@{ 
+﻿@{
     ViewData["Title"] = "数据导入";
     Layout = null;
 }
@@ -13,19 +13,19 @@
 </head>
 <body style="background-color: rgb(242, 242, 242)" ;>
 
-<div class="ui-layout-center" style="width: 350px;">
-    <div class="center-Panel" style="margin-top: 30px; width: 350px; margin-left: 100px;">
-        <div class="layui-form-item">
-            <input type="text" name="fileInput" id="fileInput" class="layui-input" placeholder="请选择系统Excel模板进行导入... " onclick="file.click()" readonly="readonly" style="width: 350px;"/>
-        </div>
-        <div class="layui-form-item">
-            <input type="button" onclick="file.click()" id="SelectExcel" class="layui-btn layui-btn-radius" value="浏览"/>
-            <input name="file" type="file" id="file" style="display: none" onchange="fileInput.value = this.value"/>
-            <input type="button" id="datImport" name="Upload" value="数据导入" onclick="uploadFile()" class="layui-btn layui-btn-danger layui-btn-radius"/>
+    <div class="ui-layout-center" style="width: 350px;">
+        <div class="center-Panel" style="margin-top: 30px; width: 350px; margin-left: 100px;">
+            <div class="layui-form-item">
+                <input type="text" name="fileInput" id="fileInput" class="layui-input" placeholder="请选择系统Excel模板进行导入... " onclick="file.click()" readonly="readonly" style="width: 350px;" />
+            </div>
+            <div class="layui-form-item">
+                <input type="button" onclick="file.click()" id="SelectExcel" class="layui-btn layui-btn-radius" value="浏览" />
+                <input name="file" type="file" id="file" style="display: none" onchange="fileInput.value = this.value" />
+                <input type="button" id="datImport" name="Upload" value="数据导入" onclick="uploadFile()" class="layui-btn layui-btn-danger layui-btn-radius" />
+            </div>
         </div>
     </div>
-</div>
-<script type="text/javascript">
+    <script type="text/javascript">
     function uploadFile() {
         var fileInfo = $("#fileInput").val();
 
@@ -43,7 +43,7 @@
         console.log(files[0]);
         formData.append("file", files[0]);
         $.ajax({
-            url: "@Url.Action("DataImport","ExcelDataImportAndLook")",
+            url:"@Url.Action("DataImport","ExcelDataImportAndLook")",
             type: 'POST',
             data: formData,
             async: false,
@@ -74,6 +74,6 @@
             }
         });
     }
-</script>
+    </script>
 </body>
 </html>

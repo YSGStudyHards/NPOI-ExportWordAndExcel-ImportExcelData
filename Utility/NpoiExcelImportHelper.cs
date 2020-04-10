@@ -14,7 +14,6 @@ namespace YY_Utility
 {
     public class NpoiExcelImportHelper
     {
-
         private static NpoiExcelImportHelper _excelImportHelper;
 
         public static NpoiExcelImportHelper _
@@ -85,7 +84,7 @@ namespace YY_Utility
                         if (row.GetCell(j) != null)//单元格内容非空验证
                         {
                             //获取指定的单元格信息
-                            var cell = row.GetCell(i);
+                            var cell = row.GetCell(j);
 
                             #region NPOI获取Excel单元格数据不同类型数据
                             switch (cell.CellType)
@@ -101,13 +100,13 @@ namespace YY_Utility
                                     break;
                                 //空数据类型
                                 case CellType.Blank:
-                                    dataRow[i] = "";
+                                    dataRow[j] = "";
                                     break;
                                 //公式类型
                                 case CellType.Formula:
                                 {
                                     HSSFFormulaEvaluator eva = new HSSFFormulaEvaluator(workbook);
-                                    dataRow[i] = eva.Evaluate(cell).StringValue;
+                                    dataRow[j] = eva.Evaluate(cell).StringValue;
                                     break;
                                 }
                                 //布尔类型
@@ -120,7 +119,7 @@ namespace YY_Utility
                                     break;
                                 //其他类型都按字符串类型来处理（未知类型CellType.Unknown，字符串类型CellType.String）
                                 default:
-                                    dataRow[i] = cell.StringCellValue;
+                                    dataRow[j] = cell.StringCellValue;
                                     break;
                             }
                             #endregion

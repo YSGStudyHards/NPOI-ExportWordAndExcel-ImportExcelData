@@ -261,7 +261,7 @@ namespace YY_Services
 
                     stopWatch.Stop();
 
-                    resultMsg = resultMsg + $",耗费总时长{stopWatch.Elapsed.TotalSeconds}秒，总共导入{getDataTable.Rows.Count}条数据";
+                    resultMsg =$"恭喜您Excel导入成功,耗费总时长{stopWatch.Elapsed.TotalSeconds}秒，总共导入{getDataTable.Rows.Count}条数据";
                 }
                 else
                 {
