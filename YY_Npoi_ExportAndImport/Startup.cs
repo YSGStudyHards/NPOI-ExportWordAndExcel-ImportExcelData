@@ -40,9 +40,7 @@ namespace YY_Npoi_ExportAndImport
             services.AddScoped<NpoiWordExportService>();
             services.AddScoped<NpoiExcelOperationService>();
 
-            string connectionStr = Configuration.GetConnectionString("MySqlConnection");
-
-            //注入Ef数据库上下文对象服务
+            //注入EF Core数据库上下文服务
             services.AddDbContext<SchoolUserInfoContext>(options =>
                 options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));
 

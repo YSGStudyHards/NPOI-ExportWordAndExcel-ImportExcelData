@@ -25,7 +25,7 @@ namespace YY_Npoi_ExportAndImport.Controllers
         /// </summary>
         /// <param name="schoolUserInfoContext"></param>
         /// <param name="excelOperationService"></param>
-        public ExcelDataImportAndLookController(SchoolUserInfoContext schoolUserInfoContext,NpoiExcelOperationService excelOperationService)
+        public ExcelDataImportAndLookController(SchoolUserInfoContext schoolUserInfoContext, NpoiExcelOperationService excelOperationService)
         {
             _userInfoContext = schoolUserInfoContext;
             _excelOperationService = excelOperationService;
@@ -51,16 +51,21 @@ namespace YY_Npoi_ExportAndImport.Controllers
             {
                 //TODO:使用ef--skip().take()进行数据分页前面必须增加OrderBy，否则报错
                 List<UserInfo> listData;
+                var totalCount = 0;
                 if (!string.IsNullOrWhiteSpace(userName))
                 {
                     listData = _userInfoContext.UserInfos.Where(x => x.UserName.Contains(userName)).OrderByDescending(x => x.Id).Skip((page - 1) * limit).Take(limit).ToList();
+
+                    totalCount = _userInfoContext.UserInfos.Count(x => x.UserName.Contains(userName));
                 }
                 else
                 {
                     listData = _userInfoContext.UserInfos.OrderByDescending(x => x.Id).Skip((page - 1) * limit).Take(limit).ToList();
+
+                    totalCount = _userInfoContext.UserInfos.Count();
                 }
 
-                return Json(new { code = 0, count = _userInfoContext.UserInfos.Count(), data = listData });
+                return Json(new { code = 0, count = totalCount, data = listData });
             }
             catch (Exception ex)
             {
@@ -88,7 +93,7 @@ namespace YY_Npoi_ExportAndImport.Controllers
 
             var result = _excelOperationService.ExcelDataBatchImport(file, out string resultMsg);
 
-            return Json( result?new {code=1, msg = resultMsg}:new{code=0,msg=resultMsg});
+            return Json(result ? new { code = 1, msg = resultMsg } : new { code = 0, msg = resultMsg });
 
         }
 
