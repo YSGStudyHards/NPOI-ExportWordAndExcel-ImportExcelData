@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Internal;
 
-namespace YY_Npoi_ExportAndImport.Controllers
+namespace YY_NpoiExportAndImport.Controllers
 {
     /// <summary>
     /// 图片，视频，音频，文档等相关文件通用上传服务类（单文件和多文件上传接口）

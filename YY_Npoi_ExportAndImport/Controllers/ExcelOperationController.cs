@@ -6,7 +6,7 @@
 using Microsoft.AspNetCore.Mvc;
 using YY_Services;
 
-namespace YY_Npoi_ExportAndImport.Controllers
+namespace YY_NpoiExportAndImport.Controllers
 {
     public class ExcelOperationController : Controller
     {

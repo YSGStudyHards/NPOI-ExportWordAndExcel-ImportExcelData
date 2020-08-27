@@ -1,6 +1,6 @@
 using System;
 
-namespace YY_Npoi_ExportAndImport.Models
+namespace YY_NpoiExportAndImport.Models
 {
     public class ErrorViewModel
     {

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.IO;
 using System.Linq;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using YY_Dal;
 using YY_Model;
@@ -12,7 +10,7 @@ using ActionResult = Microsoft.AspNetCore.Mvc.ActionResult;
 using Controller = Microsoft.AspNetCore.Mvc.Controller;
 using JsonResult = Microsoft.AspNetCore.Mvc.JsonResult;
 
-namespace YY_Npoi_ExportAndImport.Controllers
+namespace YY_NpoiExportAndImport.Controllers
 {
     public class ExcelDataImportAndLookController : Controller
     {
@@ -49,7 +47,6 @@ namespace YY_Npoi_ExportAndImport.Controllers
         {
             try
             {
-                //TODO:使用ef--skip().take()进行数据分页前面必须增加OrderBy，否则报错
                 List<UserInfo> listData;
                 var totalCount = 0;
                 if (!string.IsNullOrWhiteSpace(userName))

@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Export.Services;
+﻿using Export.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using YY_Dal;
 using YY_Services;
 
-namespace YY_Npoi_ExportAndImport
+namespace YY_NpoiExportAndImport
 {
     public class Startup
     {
@@ -28,27 +23,22 @@ namespace YY_Npoi_ExportAndImport
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.None;
-            });
+            //注入Ef数据库上下文对象服务
+            services.AddDbContext<SchoolUserInfoContext>(options =>
+                options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));
 
 
             //依赖注入
             services.AddScoped<NpoiWordExportService>();
             services.AddScoped<NpoiExcelOperationService>();
 
-            //注入EF Core数据库上下文服务
-            services.AddDbContext<SchoolUserInfoContext>(options =>
-                options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //升级.NET Core 3.1
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -63,13 +53,21 @@ namespace YY_Npoi_ExportAndImport
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseCookiePolicy();
+            app.UseRouting();
+            app.UseAuthorization();
 
-            app.UseMvc(routes =>
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+            //});
+            //TODO:升级 .NET Core 3.1
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
+                endpoints.MapControllerRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

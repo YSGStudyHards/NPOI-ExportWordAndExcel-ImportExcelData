@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Export.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using YY_Npoi_ExportAndImport.Models;
+using YY_NpoiExportAndImport.Models;
 
-namespace YY_Npoi_ExportAndImport.Controllers
+namespace YY_NpoiExportAndImport.Controllers
 {
     public class HomeController : Controller
     {
@@ -23,18 +19,6 @@ namespace YY_Npoi_ExportAndImport.Controllers
             _exportService = noExportService;
         }
 
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-
         /// <summary>
         /// Word Export
         /// </summary>
@@ -44,6 +28,17 @@ namespace YY_Npoi_ExportAndImport.Controllers
             bool result = _exportService.SaveWordFile(out string savePath);
 
             return Json(result == true ? new { code = 1, data = savePath } : new { code = 0, data = savePath });
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+
+        public IActionResult Privacy()
+        {
+            return View();
         }
 
 

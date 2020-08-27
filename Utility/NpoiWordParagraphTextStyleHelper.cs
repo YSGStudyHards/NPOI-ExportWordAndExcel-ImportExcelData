@@ -3,10 +3,9 @@
  * Description：Npoi之导出Word段落，文本，表格，字体等相关样式统一封装
  * Description：2020年3月25日
  */
-
-using System;
 using NPOI.XWPF.UserModel;
 using NPOI.OpenXmlFormats.Wordprocessing;
+using System;
 
 namespace YY_Utility
 {
@@ -39,7 +38,6 @@ namespace YY_Utility
         {
             XWPFParagraph paragraph = document.CreateParagraph();//创建段落对象
             paragraph.Alignment = paragraphAlign;//文字显示位置,段落排列（左对齐，居中，右对齐）
-
 
             XWPFRun xwpfRun = paragraph.CreateRun();//创建段落文本对象
             xwpfRun.IsBold = isBold;//文字加粗
@@ -82,12 +80,15 @@ namespace YY_Utility
             //设置单元格文本对齐
             para.AddNewPPr().AddNewTextAlignment();
 
+
             XWPFParagraph paragraph = new XWPFParagraph(para, table.Body);//创建表格中的段落对象
             paragraph.Alignment = paragraphAlign;//文字显示位置,段落排列（左对齐，居中，右对齐）
-            //paragraph.FontAlignment =Convert.ToInt32(ParagraphAlignment.CENTER);//字体在单元格内显示位置与 paragraph.Alignment效果相似
+            paragraph.VerticalAlignment = TextAlignment.CENTER;//字体垂直对齐
+            //paragraph.FontAlignment =Convert.ToInt32(ParagraphAlignment.CENTER);
+            //字体在单元格内显示位置与 paragraph.Alignment效果相似
 
             XWPFRun xwpfRun = paragraph.CreateRun();//创建段落文本对象
-            xwpfRun.SetText(fillContent);
+            xwpfRun.SetText(fillContent);//内容填充
             xwpfRun.FontSize = fontSize;//字体大小
             xwpfRun.SetColor(fontColor);//设置字体颜色--十六进制
             xwpfRun.IsItalic = isItalic;//是否设置斜体（字体倾斜）

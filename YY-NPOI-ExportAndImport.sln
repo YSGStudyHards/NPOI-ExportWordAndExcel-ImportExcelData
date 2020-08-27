@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YY_Model", "YY_Model\YY_Mod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YY_Dal", "YY_Dal\YY_Dal.csproj", "{7540B824-BD33-42DE-A8FB-F0A44CB0E03C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YY_Npoi_ExportAndImport", "YY_Npoi_ExportAndImport\YY_Npoi_ExportAndImport.csproj", "{487BBBBB-B4A2-48C5-922A-98EB597A48A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YY_NpoiExportAndImport", "YY_Npoi_ExportAndImport\YY_NpoiExportAndImport.csproj", "{487BBBBB-B4A2-48C5-922A-98EB597A48A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
