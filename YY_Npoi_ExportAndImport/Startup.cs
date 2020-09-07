@@ -32,9 +32,14 @@ namespace YY_NpoiExportAndImport
             services.AddScoped<NpoiWordExportService>();
             services.AddScoped<NpoiExcelOperationService>();
 
+
             //升级.NET Core 3.1
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddControllersWithViews();
+            services.AddRazorPages();
+
+            //Razor试图运行时编译配置
+            services.AddRazorPages().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
