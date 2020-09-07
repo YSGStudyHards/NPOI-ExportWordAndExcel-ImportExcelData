@@ -236,14 +236,14 @@ namespace YY_Services
 
                     var userInfoList = new List<UserInfo>();
 
-                    var random = DateTime.Now.ToString("fff");
+                    //var random = DateTime.Now.ToString("fff");
 
                     //将dataTable数据源转化为List数据源
                     for (int i =0; i < getDataTable.Rows.Count; i++)
                     {
                         var userInfo = new UserInfo
                         {
-                            UserName = getDataTable.Rows[i][0].ToString()+"_"+random,
+                            UserName = getDataTable.Rows[i][0].ToString(),
                             Sex = getDataTable.Rows[i][1].ToString(),
                             Phone = getDataTable.Rows[i][2].ToString(),
                             Description = getDataTable.Rows[i][3].ToString(),

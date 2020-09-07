@@ -1,7 +1,7 @@
 ﻿/**
- * Author:追逐时光
+ * Author:追逐时光者
  * Description：Npoi数据导入帮助类
- * Description：2020年4月5日
+ * Description：2020年9月8日
  */
 using System;
 using System.Data;
@@ -39,16 +39,18 @@ namespace YY_Utility
 
             try
             {
+                //Workbook对象代表一个工作簿,首先定义一个Excel工作薄
                 IWorkbook workbook;
 
                 //XSSFWorkbook 适用XLSX格式，HSSFWorkbook 适用XLS格式
-                #region 判断excel版本
+                #region 判断Excel版本
                 switch (fileType)
                 {
-                    //2007以下版本excel
+                    //.XLSX是07版(或者07以上的)的Office Excel
                     case ".xlsx":
                         workbook = new XSSFWorkbook(stream);
                         break;
+                    //.XLS是03版的Office Excel
                     case ".xls":
                         workbook = new HSSFWorkbook(stream);
                         break;
@@ -83,10 +85,9 @@ namespace YY_Utility
                     {
                         if (row.GetCell(j) != null)//单元格内容非空验证
                         {
+                            #region NPOI获取Excel单元格中不同类型的数据
                             //获取指定的单元格信息
                             var cell = row.GetCell(j);
-
-                            #region NPOI获取Excel单元格数据不同类型数据
                             switch (cell.CellType)
                             {
                                 //首先在NPOI中数字和日期都属于Numeric类型

@@ -1,5 +1,5 @@
 ﻿/**
- * Author:追逐时光
+ * Author:追逐时光者
  * Description：Npoi之导出Word段落，文本，表格，字体等相关样式统一封装
  * Description：2020年3月25日
  */
