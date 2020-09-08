@@ -2,7 +2,7 @@
 
 #### 项目完整的展示效果：
 
-![](https://blog-static.cnblogs.com/files/Can-daydayup/complateimage.gif)
+![完整示例效果图](https://blog-static.cnblogs.com/files/Can-daydayup/complateimage.gif "完整示例效果图")
 
 
 #### .NET Core使用NPOI导出复杂，美观的Excel详解：
