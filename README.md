@@ -1,5 +1,9 @@
 ## 简单，易懂的通用ASP.NET Core NPOI导出复杂Word、复杂美观Excel和Excel数据导入详细示例开源项目
 
+## # 项目完整的展示效果：
+
+![](https://blog-static.cnblogs.com/files/Can-daydayup/%E5%AE%8C%E6%95%B4%E7%9A%84%E5%AE%9E%E4%BE%8B%E5%9B%BE%E7%89%87.gif)
+
 #### .NET Core使用NPOI导出复杂，美观的Excel详解：
 
 [https://www.cnblogs.com/Can-daydayup/p/12501400.html][1]
@@ -17,6 +21,7 @@
 #### NET Core使用NPOI将Excel中的数据批量导出到MySQL：
 
 [https://www.cnblogs.com/Can-daydayup/p/12593165.html][5]
+
 ![](https://img2020.cnblogs.com/blog/1336199/202009/1336199-20200909010339493-1716062953.gif)
 
 
