@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj": {}
+    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj": {}
   },
   "projects": {
-    "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj": {
+    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj",
+        "projectUniqueName": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj",
         "projectName": "YY_Services",
-        "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj",
-        "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
-        "outputPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\obj\\",
+        "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj",
+        "packagesPath": "C:\\Users\\洪波保尔\\.nuget\\packages\\",
+        "outputPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\yaoshuanggui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\洪波保尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,19 +25,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {
-                "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj"
+              "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {
+                "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj"
               },
-              "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj": {
-                "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj"
+              "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj": {
+                "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj"
               },
-              "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj": {
-                "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj"
+              "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj": {
+                "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj"
               }
             }
           }
@@ -79,24 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {
+    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
+        "projectUniqueName": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
         "projectName": "YY_Utility",
-        "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
-        "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
-        "outputPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\obj\\",
+        "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
+        "packagesPath": "C:\\Users\\洪波保尔\\.nuget\\packages\\",
+        "outputPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\yaoshuanggui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\洪波保尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,7 +104,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -140,24 +140,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj": {
+    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj",
+        "projectUniqueName": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj",
         "projectName": "YY_Dal",
-        "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj",
-        "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
-        "outputPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\obj\\",
+        "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\YY_Dal.csproj",
+        "packagesPath": "C:\\Users\\洪波保尔\\.nuget\\packages\\",
+        "outputPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\yaoshuanggui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\洪波保尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,13 +165,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj": {
-                "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj"
+              "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj": {
+                "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj"
               }
             }
           }
@@ -209,24 +209,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj": {
+    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj",
+        "projectUniqueName": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj",
         "projectName": "YY_Model",
-        "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj",
-        "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
-        "outputPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\obj\\",
+        "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\YY_Model.csproj",
+        "packagesPath": "C:\\Users\\洪波保尔\\.nuget\\packages\\",
+        "outputPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\yaoshuanggui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\洪波保尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -234,7 +234,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -264,24 +264,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj": {
+    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
+        "projectUniqueName": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
         "projectName": "YY_NpoiExportAndImport",
-        "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
-        "packagesPath": "C:\\Users\\yaoshuanggui\\.nuget\\packages\\",
-        "outputPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\obj\\",
+        "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
+        "packagesPath": "C:\\Users\\洪波保尔\\.nuget\\packages\\",
+        "outputPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\yaoshuanggui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\洪波保尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -289,13 +289,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj": {
-                "projectPath": "E:\\A-我的Github开源项目\\Npoi使用超集（正在使用中）\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj"
+              "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj": {
+                "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj"
               }
             }
           }
@@ -342,7 +342,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

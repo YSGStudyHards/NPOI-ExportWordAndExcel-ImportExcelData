@@ -1,6 +1,6 @@
 ﻿/**
  * Author:追逐时光者
- * Description：Npoi数据导入帮助类
+ * Description：通用NPOI Excel导入数据帮助类
  * Description：2020年9月8日
  */
 using System;
