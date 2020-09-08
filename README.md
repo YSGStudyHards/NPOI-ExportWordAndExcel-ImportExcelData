@@ -17,7 +17,7 @@
 #### NET Core使用NPOI将Excel中的数据批量导出到MySQL：
 
 [https://www.cnblogs.com/Can-daydayup/p/12593165.html][5]
-![####](https://img2020.cnblogs.com/blog/1336199/202009/1336199-20200909010339493-1716062953.gif "####") 标题H4
+![](https://img2020.cnblogs.com/blog/1336199/202009/1336199-20200909010339493-1716062953.gif)
 
 
   [1]: https://www.cnblogs.com/Can-daydayup/p/12501400.html
