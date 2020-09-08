@@ -1,9 +1,0 @@
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp3.1\YY_Utility.deps.json
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp3.1\YY_Utility.dll
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp3.1\YY_Utility.pdb
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.csprojAssemblyReference.cache
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.AssemblyInfoInputs.cache
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.AssemblyInfo.cs
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.csproj.CoreCompileInputs.cache
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.dll
-E:\A-我的Github开源项目\Npoi使用超集（正在使用中）\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.pdb
