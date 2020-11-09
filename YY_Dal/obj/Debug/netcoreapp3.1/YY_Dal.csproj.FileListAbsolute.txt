@@ -1,0 +1,12 @@
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\bin\Debug\netcoreapp3.1\YY_Dal.deps.json
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\bin\Debug\netcoreapp3.1\YY_Dal.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\bin\Debug\netcoreapp3.1\YY_Dal.pdb
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\bin\Debug\netcoreapp3.1\YY_Model.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\bin\Debug\netcoreapp3.1\YY_Model.pdb
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\obj\Debug\netcoreapp3.1\YY_Dal.csprojAssemblyReference.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\obj\Debug\netcoreapp3.1\YY_Dal.AssemblyInfoInputs.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\obj\Debug\netcoreapp3.1\YY_Dal.AssemblyInfo.cs
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\obj\Debug\netcoreapp3.1\YY_Dal.csproj.CoreCompileInputs.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\obj\Debug\netcoreapp3.1\YY_Dal.csproj.CopyComplete
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\obj\Debug\netcoreapp3.1\YY_Dal.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\YY_Dal\obj\Debug\netcoreapp3.1\YY_Dal.pdb

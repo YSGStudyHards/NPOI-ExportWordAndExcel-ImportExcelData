@@ -1,0 +1,9 @@
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp3.1\YY_Utility.deps.json
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp3.1\YY_Utility.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\bin\Debug\netcoreapp3.1\YY_Utility.pdb
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.csprojAssemblyReference.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.AssemblyInfoInputs.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.AssemblyInfo.cs
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.csproj.CoreCompileInputs.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Utility\obj\Debug\netcoreapp3.1\YY_Utility.pdb

@@ -1,0 +1,16 @@
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Services.deps.json
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Services.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Services.pdb
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Dal.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Model.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Utility.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Utility.pdb
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Dal.pdb
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Model.pdb
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.csprojAssemblyReference.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.AssemblyInfoInputs.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.AssemblyInfo.cs
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.csproj.CoreCompileInputs.cache
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.csproj.CopyComplete
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.dll
+E:\共享代码\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.pdb
