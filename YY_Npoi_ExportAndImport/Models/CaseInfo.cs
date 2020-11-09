@@ -59,5 +59,17 @@ namespace YY_NpoiExportAndImport.Models
         /// </summary>
         [Description("受害人身份证件号码")]
         public string 受害人身份证件号码 { get; set; }
+
+        /// <summary>
+        /// 工作单位
+        /// </summary>
+        [Description("工作单位")]
+        public string 工作单位 { get; set; }
+
+        /// <summary>
+        /// 职业
+        /// </summary>
+        [Description("职业")]
+        public string 职业 { get; set; }
     }
 }
