@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {}
+    "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {}
   },
   "projects": {
-    "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {
+    "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
+        "projectUniqueName": "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
         "projectName": "YY_Utility",
-        "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
-        "packagesPath": "C:\\Users\\洪波保尔\\.nuget\\packages\\",
-        "outputPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\obj\\",
+        "projectPath": "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\YY_Utility.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\洪波保尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
