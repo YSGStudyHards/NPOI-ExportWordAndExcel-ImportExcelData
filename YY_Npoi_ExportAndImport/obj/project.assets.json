@@ -8587,23 +8587,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\洪波保尔\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
+      "projectUniqueName": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
       "projectName": "YY_NpoiExportAndImport",
-      "projectPath": "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\obj\\",
+      "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\YY_NpoiExportAndImport.csproj",
+      "packagesPath": "C:\\Users\\洪波保尔\\.nuget\\packages\\",
+      "outputPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\YY_Npoi_ExportAndImport\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\洪波保尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8616,8 +8616,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj": {
-              "projectPath": "E:\\白洪波\\NPOI-ExportWordAndExcel-ImportExcelData-master\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj"
+            "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj": {
+              "projectPath": "E:\\共享代码\\NPOI-ExportWordAndExcel-ImportExcelData\\Export.Services\\YY_Services.csproj"
             }
           }
         }
@@ -8664,7 +8664,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
