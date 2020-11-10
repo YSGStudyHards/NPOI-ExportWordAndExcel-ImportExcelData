@@ -55,21 +55,21 @@ namespace YY_NpoiExportAndImport.Models
         public string 管辖派出所 { get; set; }
 
         /// <summary>
-        /// 受害人身份证件号码
+        /// 报案人证件号码
         /// </summary>
-        [Description("受害人身份证件号码")]
-        public string 受害人身份证件号码 { get; set; }
+        [Description("报案人证件号码")]
+        public string 报案人证件号码 { get; set; }
 
         /// <summary>
-        /// 工作单位
+        /// 报案人单位
         /// </summary>
-        [Description("工作单位")]
-        public string 工作单位 { get; set; }
+        [Description("报案人单位")]
+        public string 报案人单位 { get; set; }
 
         /// <summary>
-        /// 职业
+        /// 发案地址
         /// </summary>
-        [Description("职业")]
-        public string 职业 { get; set; }
+        [Description("发案地址")]
+        public string 发案地址 { get; set; }
     }
 }
