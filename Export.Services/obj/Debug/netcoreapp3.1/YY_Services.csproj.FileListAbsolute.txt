@@ -1,0 +1,16 @@
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Services.deps.json
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Services.dll
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Services.pdb
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Dal.dll
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Model.dll
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Utility.dll
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Utility.pdb
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Dal.pdb
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\bin\Debug\netcoreapp3.1\YY_Model.pdb
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.csprojAssemblyReference.cache
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.AssemblyInfoInputs.cache
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.AssemblyInfo.cs
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.csproj.CoreCompileInputs.cache
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.csproj.CopyComplete
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.dll
+E:\A-我的Github开源项目\合并冲突\NPOI-ExportWordAndExcel-ImportExcelData\Export.Services\obj\Debug\netcoreapp3.1\YY_Services.pdb
