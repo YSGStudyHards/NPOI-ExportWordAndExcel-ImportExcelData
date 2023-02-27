@@ -1,4 +1,4 @@
-## 简单，易懂的通用ASP.NET Core NPOI导出复杂Word、复杂美观Excel和Excel数据导入详细示例开源项目
+## 简单易懂的通用.NET Core NPOI导出复杂Word、复杂美观Excel和Excel数据导入详细示例开源项目
 
 #### 项目完整的展示效果：
 
